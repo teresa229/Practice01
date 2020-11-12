@@ -1,6 +1,8 @@
 package com.javaex.practice;
 
-public class Ex09 {
+import java.util.Scanner;
+
+public class Ex09 { //해결 안됨
 
 	public static void main(String[] args) {
 		
@@ -16,13 +18,15 @@ public class Ex09 {
 		  섭씨->화씨 ℉ = (℃ * 9/5) + 32
 		*/
 
+		Scanner sc = new Scanner(System.in);
 		
+		double temp = sc.nextDouble();
 		
-		double f = 80.0;
+	//	double temp = 80.0;
 		double c = 32.0;
-		System.out.println(5/9*(f-c)); ///  5/9*(80.0-32.0) // 5/9*(48.0) // 5/432
+		double sum = (double)5/9*(temp-c);
+		System.out.println(sum); // 5/9 앞에 double을 붙여주어야 한다.
 		
-        //0.0115740740740741  // 0.1157407407407407 (.0을 넣으면 나오는 값)
-		
+		sc.close();
 	}
 }

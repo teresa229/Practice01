@@ -1,6 +1,6 @@
 package com.javaex.practice;
 
-public class Ex07 {
+public class Ex07 { //해결
 	public static void main(String[] args) {
 		
 		int i = 10;     // 

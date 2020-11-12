@@ -1,11 +1,17 @@
 package com.javaex.practice;
 
-public class Ex10 {
+import java.util.Scanner;
+
+public class Ex10 { //해결
 	
 	public static void main(String[] args) {
 		
-		int x = sc.; //값이 존재하지 않아서?
-		System.out.println(x);
+		Scanner sc = new Scanner(System.in);
+		
+		int test = sc.nextInt(); //import를 안 해주어서?
+		System.out.println(test);
+		
+		sc.close();
 	}
 
 }
